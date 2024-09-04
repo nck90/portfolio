@@ -1,0 +1,74 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #333333; /* 단색 배경색 설정 */
+    margin: 0; /* 상단의 불필요한 여백 제거 */
+    padding: 40px 20%; /* 푸터 내부 패딩을 줄여 높이 조정 */
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.footer_content {
+    background: none; /* 그라데이션 제거, 투명 배경 */
+    padding: 15px 0; /* 패딩 조정 */
+    box-sizing: border-box;
+}
+
+.footer_content_main {
+    background: none !important; /* 그라데이션 제거 */
+}
+
+.footer_content_contact {
+    background: none !important; /* 그라데이션 제거 */
+}
+
+.footer_title {
+    font-size: 35px; /* 폰트 크기 조정 */
+    font-weight: bold;
+    color: white;
+    margin: 0 0 20px; /* 마진 조정 */
+}
+
+.footer_des {
+    margin: 10px 0 0; /* 마진 조정 */
+    font-size: 16px; /* 폰트 크기 조정 */
+    color: #acacac;
+}
+
+.link {
+    font-size: 16px; /* 폰트 크기 조정 */
+    color: #acacac;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 10px 0 0; /* 간격 조정 */
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #ffffff; /* 마우스 오버 시 색상 변경 */
+}
+
+@media all and (max-width: 750px) {
+    .footer_content {
+        padding: 30px 20px; /* 모바일에서 패딩 조정 */
+    }
+    .footer_title {
+        font-size: 30px;
+        margin: 0 0 20px;
+    }
+    .footer_des {
+        margin: 15px 0 0;
+        font-size: 14px;
+    }
+    .link {
+        font-size: 14px;
+        margin: 0 8px 0 0;
+    }
+}
+
+@media all and (max-height: 550px) {
+    .footer_info {
+        top: 4200px;
+    }
+}

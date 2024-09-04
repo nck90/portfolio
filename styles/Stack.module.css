@@ -1,0 +1,139 @@
+/* Container styling for the page */
+.container {
+    padding: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Title Styling */
+.title {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    color: #2d3748;
+    font-weight: bold;
+    animation: fadeInTitle 0.8s ease forwards;
+}
+
+/* Card Grid Layout */
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* Individual Card Styling */
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideIn 0.8s ease forwards;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Title */
+.cardTitle {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #4A90E2;
+    border-bottom: 2px solid #4A90E2;
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+
+/* List inside the Card */
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Fade-In and Slide Animation for Cards */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Staggered Animation Delays */
+.card:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.card:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+/* Animation for Title */
+@keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Link Button Styling */
+.link {
+    display: inline-block;
+    margin-top: 2.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #4A90E2;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: slideIn 1s ease forwards;
+}
+
+.link:hover {
+    background-color: #357ABD;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .cardTitle {
+        font-size: 1.5rem;
+    }
+
+    .card li {
+        font-size: 1.1rem;
+    }
+
+    .link {
+        padding: 0.5rem 1.25rem;
+    }
+}
