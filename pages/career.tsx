@@ -16,8 +16,8 @@ export default function Career() {
                 수상 및 근무 경력
             </h2>
             <h6 className={styles.content}>
-                텅.. 텅.. 비엇네요..<br/>
-                이 페이지를 채워줄 직장을 찾고 있어요!<br/>
+                채워야함<br/>
+                채울거임!<br/>
                 <Link passHref href="/contact"><span className={styles.link}>연락하기</span></Link><br/>
                 <br/>
             </h6>

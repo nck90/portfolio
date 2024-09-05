@@ -1,7 +1,7 @@
 ### DEV NCK90 - 포트폴리오
 
-[![Insta](https://www.instagram.com/jw._308)](https://www.instagram.com/jw._308)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bde60b00-46fd-46f9-89fa-b2810b530d43/deploy-status)](https://app.netlify.com/sites/devnck90/deploys)
+[![Instagram](https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png)](https://www.instagram.com/jw._308)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bde60b00-46fd-46f9-89fa-b2810b530d43/deploy-status)](https://app.netlify.com/sites/devnck90/deploys) 
 
 ## INTRODUCE
 - 이 웹 애플리케이션은 **<u>Next.js + React + Typescript</u>**로 개발한 개인 포트폴리오입니다!
@@ -25,7 +25,7 @@
 </details>
 
 <details><summary>API</summary>
-
+  
 > 사용한 외부 API 목록이 여기에 표시됩니다.
 
 </details>

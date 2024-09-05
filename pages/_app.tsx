@@ -45,7 +45,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-YER8B5T7XX"></script>
             <script data-ad-client="ca-pub-8685517859414452" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-            <meta name="twitter:url" content="https://devplug.netlify.app" />
+            <meta name="twitter:url" content="" />
             <meta name="twitter:type" content="website" />
             <meta name="twitter:title" content="DEV Nck90" />
             <meta name="twitter:description" content="학생 개발자 Nck입니다" />

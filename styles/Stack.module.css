@@ -1,4 +1,4 @@
-/* Container styling for the page */
+
 .container {
     padding: 3rem;
     max-width: 1200px;
@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-/* Title Styling */
+
 .title {
     font-size: 3rem;
     margin-bottom: 2.5rem;
@@ -15,7 +15,7 @@
     animation: fadeInTitle 0.8s ease forwards;
 }
 
-/* Card Grid Layout */
+
 .cardGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -23,7 +23,7 @@
     margin-bottom: 3rem;
 }
 
-/* Individual Card Styling */
+
 .card {
     background-color: white;
     border-radius: 15px;
@@ -35,13 +35,13 @@
     animation: slideIn 0.8s ease forwards;
 }
 
-/* Card Hover Effect */
+
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* Card Title */
+
 .cardTitle {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
@@ -51,7 +51,7 @@
     text-align: left;
 }
 
-/* List inside the Card */
+
 .card ul {
     list-style: none;
     padding-left: 0;
@@ -65,7 +65,7 @@
     transition: transform 0.3s ease;
 }
 
-/* Fade-In and Slide Animation for Cards */
+
 @keyframes slideIn {
     0% {
         opacity: 0;
@@ -77,7 +77,7 @@
     }
 }
 
-/* Staggered Animation Delays */
+
 .card:nth-child(1) {
     animation-delay: 0.2s;
 }
@@ -85,7 +85,6 @@
     animation-delay: 0.4s;
 }
 
-/* Animation for Title */
 @keyframes fadeInTitle {
     0% {
         opacity: 0;
@@ -97,7 +96,6 @@
     }
 }
 
-/* Link Button Styling */
 .link {
     display: inline-block;
     margin-top: 2.5rem;
@@ -115,7 +113,7 @@
     transform: scale(1.05);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .container {
         padding: 1.5rem;

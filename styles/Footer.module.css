@@ -1,57 +1,57 @@
 .footer {
     width: 100%;
     height: auto;
-    background-color: #333333; /* 단색 배경색 설정 */
-    margin: 0; /* 상단의 불필요한 여백 제거 */
-    padding: 40px 20%; /* 푸터 내부 패딩을 줄여 높이 조정 */
+    background-color: #333333; 
+    margin: 0; 
+    padding: 40px 20%;
     box-sizing: border-box;
     color: white;
     text-align: center;
 }
 
 .footer_content {
-    background: none; /* 그라데이션 제거, 투명 배경 */
-    padding: 15px 0; /* 패딩 조정 */
+    background: none; 
+    padding: 15px 0; 
     box-sizing: border-box;
 }
 
 .footer_content_main {
-    background: none !important; /* 그라데이션 제거 */
+    background: none !important;
 }
 
 .footer_content_contact {
-    background: none !important; /* 그라데이션 제거 */
+    background: none !important; 
 }
 
 .footer_title {
-    font-size: 35px; /* 폰트 크기 조정 */
+    font-size: 35px;
     font-weight: bold;
     color: white;
-    margin: 0 0 20px; /* 마진 조정 */
+    margin: 0 0 20px; 
 }
 
 .footer_des {
-    margin: 10px 0 0; /* 마진 조정 */
-    font-size: 16px; /* 폰트 크기 조정 */
+    margin: 10px 0 0;
+    font-size: 16px; 
     color: #acacac;
 }
 
 .link {
-    font-size: 16px; /* 폰트 크기 조정 */
+    font-size: 16px; 
     color: #acacac;
     text-decoration: none;
     cursor: pointer;
-    margin: 0 10px 0 0; /* 간격 조정 */
+    margin: 0 10px 0 0;
     transition: color 0.3s ease;
 }
 
 .link:hover {
-    color: #ffffff; /* 마우스 오버 시 색상 변경 */
+    color: #ffffff; 
 }
 
 @media all and (max-width: 750px) {
     .footer_content {
-        padding: 30px 20px; /* 모바일에서 패딩 조정 */
+        padding: 30px 20px; 
     }
     .footer_title {
         font-size: 30px;
